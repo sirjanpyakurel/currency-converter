@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #edf2f4;
+    
+}
+
+.box {
+    width: 80%;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.container{
+    margin: 5px 50px 0px 50px;
+    border: 2px solid black;
+    height: 65vh;
+    width: 450px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+
+.heading {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 530;
+}
+
+.amount {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa-solid {
+    font-size: 2rem;
+}
+
+.to, .from {
+    margin: 30px;
+}
+
+.img {
+    font-size: 3rem;
+}
+
+#select {
+    font-size: 1rem;
+    border-radius: 5px;
+    
+    
+
+}
+
+.msg {
+    margin-left: 40px;
+}
+
+.select-container img{
+    
+    max-width: 2rem;
+
+}
+
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+    
+}
+
+
+.msg-btn{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+    height: 5vh;
+    background-color: #3a86ff;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+
+#select{
+    border: white;
+}
